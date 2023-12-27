@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Picture</title>
+</head>
+<body>
+
+    <h1>Take a Picture</h1>
+
+    <video id="camera-preview" width="640" height="480" autoplay></video>
+    <button id="capture-button">Capture</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const video = document.getElementById('camera-preview');
+            const captureButton = document.getElementById('capture-button');
+
+            // Request access to the user's camera
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    // Display the camera stream in the video element
+                    video.srcObject = stream;
+
+                    // Set up the capture button click event
+                    captureButton.addEventListener('click', function () {
+                        // Create a canvas element to capture the photo
+                        const canvas = document.createElement('canvas');
+                        canvas.width = video.videoWidth;
+                        canvas.height = video.videoHeight;
+                        const context = canvas.getContext('2d');
+
+                        // Draw the current video frame onto the canvas
+                        context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                        // Convert the canvas content to a data URL (base64)
+                        const dataURL = canvas.toDataURL('image/png');
+
+                        // You can now send the dataURL to your server or use it as needed
+                        console.log(dataURL);
+
+                        // Stop the camera stream
+                        stream.getTracks().forEach(track => track.stop());
+                    });
+                })
+                .catch(function (error) {
+                    console.error('Error accessing camera:', error);
+                });
+        });
+    </script>
+
+</body>
+</html>
