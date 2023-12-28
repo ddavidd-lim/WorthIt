@@ -13,6 +13,9 @@ The app will also use OCR to scan menu images and parse the information to get t
 - [ ] Create API to send JSON to backend
 - [ ] Create backend to process all menu items in JSON format and respond with list of menu items sorted by calories/dollar
 - [ ] Create frontend website with camera functionality to send image taken to backend with API
+- [ ] Implement google translate live camera functionality
+- [ ] Store JSONs into database with timestamp for price tracker
+- [ ] QR code support
 
 
 ### Feature List
