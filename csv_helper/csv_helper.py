@@ -14,10 +14,10 @@ def csv_editor(window):
     for index, rows in df.iterrows():
         window['output_text'].update(f"Line {index+2}:\n{df.iloc[index]}")
         tag_index = csv_gui.buttonInput(window)
+        if tag_index == "exit":
+            break
         df.at[index, 'tag'] = buttons[tag_index]
         df.to_csv(filename, index=False, encoding='utf-8')
-    
-    print(df.iloc[0])
 
 def run():
     window = csv_gui.create_window()
