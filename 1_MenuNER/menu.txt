@@ -1,0 +1,81 @@
+id	text	tag
+005.jpg	前菜小食	O
+005.jpg	Appetizers & Snacks	O
+005.jpg	Dumplings & Baos	O
+005.jpg	2	O
+005.jpg	2	O
+005.jpg	香辣鹵牛腱	O
+005.jpg	899	O
+005.jpg	799	O
+005.jpg	醋泡木耳	O
+005.jpg	Soy Braised Beef Slices	O
+005.jpg	Pork Ear Slices with ChiliOil	O
+005.jpg	599	O
+005.jpg	With Cilantro	O
+005.jpg	and Cilantro	O
+005.jpg	Wood Ear Mushroom Pickled	O
+005.jpg	(4個)1099	O
+005.jpg	499	O
+005.jpg	with Wild Chil	O
+005.jpg	'	O
+005.jpg	Pie(4 Pieces)	O
+005.jpg	Pork Steamed Bao(3 Pieces)	O
+005.jpg	5	O
+005.jpg	6	O
+005.jpg	5	O
+005.jpg	坡子街熱鹵	O
+005.jpg	1299	O
+005.jpg	(木耳	O
+005.jpg	千張	O
+005.jpg	牛肉	O
+005.jpg	腐竹	O
+005.jpg	涼拌千張絲	O
+005.jpg	799	O
+005.jpg	Changsha Style Spicy Medley	O
+005.jpg	鹽酥雞	O
+005.jpg	1099	O
+005.jpg	Tofu Skin Salad	O
+005.jpg	Wood EarMushroom Tofu Skin Shreds.	O
+005.jpg	Crispy Chicken	O
+005.jpg	999	O
+005.jpg	"Pig Ear Beef Dred Tofu Skin,"	O
+005.jpg	Wild Chili Beefin	O
+005.jpg	999	O
+005.jpg	素水鉸(6個)	O
+005.jpg	699	O
+005.jpg	Chinese Pita	O
+005.jpg	Pork Steamed Dumpling( Pieces)	O
+005.jpg	Dumplings Pieces)	O
+005.jpg	8	O
+005.jpg	飲料	O
+005.jpg	甜品	O
+005.jpg	Beverages & Desserts	O
+005.jpg	刮涼粉	O
+005.jpg	499	O
+005.jpg	虎皮蛋	O
+005.jpg	加面	O
+005.jpg	199	O
+005.jpg	Each	O
+005.jpg	Mung Bean Moodle	O
+005.jpg	Fried Egg (Each)	O
+005.jpg	Add Moodles	O
+005.jpg	Iced	O
+005.jpg	With	O
+005.jpg	綠豆爽 399	O
+005.jpg	玉米汁 299	O
+005.jpg	Hot& Spicy	O
+005.jpg	Coconut Juice and Peach	O
+005.jpg	Iced	O
+005.jpg	Bean	O
+005.jpg	酸梅湯 29	O
+005.jpg	2021-2024	O
+005.jpg	nC	O
+005.jpg	626.571	O
+005.jpg	Corn Juice	O
+005.jpg	Juice	O
+005.jpg	Crispy	O
+005.jpg	Vege	O
+005.jpg	Soup	O
+005.jpg	Mung	O
+005.jpg	Soup	O
+005.jpg	Plum	O
