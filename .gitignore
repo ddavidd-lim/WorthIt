@@ -2,11 +2,12 @@
 .vscode/
 .history/
 .idea/
-/venv/*
-/__pycache__/*
+/venv/
+/__pycache__/
 
 # virtual environment
-/csv_helper/venv/*
+/csv_helper/venv/
+/test/
 
 # pycache
-/csv_helper/__pycache__/*
+/csv_helper/__pycache__/
