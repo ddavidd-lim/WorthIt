@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 import csv_gui
 
-filename = 'businessCard.csv'
+filename = '1_MenuNER/menu.csv'
 
 def csv_editor(window):
     # Take input from user and update the CSV to include one of the following tags
