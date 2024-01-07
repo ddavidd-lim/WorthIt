@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 import csv_gui
 
-filename = 'businessCard.csv'
+filename = 'csv_helper/businessCard.csv'
 
 def csv_editor(window):
     # Take input from user and update the CSV to include one of the following tags
@@ -35,3 +35,4 @@ def run():
 
 if __name__ == '__main__':
     run()
+    # reset()

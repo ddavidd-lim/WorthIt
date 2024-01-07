@@ -23,7 +23,7 @@ def buttonInput(window):
 
         if event == sg.WIN_CLOSED or event == 'Exit':
             return "exit"
-        elif event.startswith('Button'):
+        else:
             button_number = int(buttonSearch(event.split()[-1]))
             return button_number
 
